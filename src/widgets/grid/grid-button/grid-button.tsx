@@ -7,10 +7,7 @@ type Props = {
 };
 
 export const GridButton: FC<Props> = (props) => {
-  const {
-    hand,
-    mode,
-  } = props;
+  const { hand, mode } = props;
 
   const [firstCard, secondCard] = hand;
 
